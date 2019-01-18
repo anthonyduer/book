@@ -18,13 +18,7 @@ very quick.
 In this section, we provide a cursory overview of each of the data
 lifecycle steps using toy data.
 
-## Instalation
-
-If you have pip installed, the easiest way to install scikit-learn is:
-
-$ pip install scikit-learn
-
-pip will manage any dependencies (NumPy and SciPy).
+## Getting Started
 
 If you already have a working installation of numpy and scipy, the
 easiest way to install scikit-learn is using pip
@@ -35,7 +29,11 @@ easiest way to install scikit-learn is using pip
     
 ## Data Preprocessing
 
+## Data Analysis
 
+## Data Modeling
+
+## Data Visualization
 
 
 Import
