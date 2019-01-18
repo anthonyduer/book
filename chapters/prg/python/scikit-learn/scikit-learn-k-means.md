@@ -1,21 +1,22 @@
 # Scikit-learn :o: :hand: sp19-516-122 {#s-sikitlearn}
 
-Scikit-learn is widely populate data analysis library that supports
-that complete data lifecycle from preprocessing, analyzing, modeling,
+Scikit-learn is a popular data analysis library that supports
+the complete data lifecycle from preprocessing, analyzing, modeling,
 and visualizing. It contains many algorithms that allow data scientists
-to create robust data pipelines that allow for analyses to be performed
-efficiently.
-
-Example of features that are included in scikit-learn are linear 
+to create robust data pipelines that makes data anlysis much more
+efficient. Example of features that are included in scikit-learn are linear 
 regression models, min-max preprocessors, and cross validators.
+
 Standardization is an important feature of scikit-learn. For example,
-each model uses the fit(x, y) or fit(x) method to fit a model to data.
+each model uses a fit(x, y) or fit(x) method to fit a model to data.
 This allows for easy model exploration as models can be collected into
 a list and then iterated over to examine how each performs against the
-data without fine tuning.
+data without fine tuning. Since scikit-learn sits atop the NumPy library,
+it also benefits from sections of code written in cython, making it
+very quick.
 
-In this section we demonstrate how simple it is to use k-means in
-scikit learn.
+In this section, we provide a cursory overview of each of the data
+lifecycle steps using toy data.
 
 ## Instalation
 
@@ -31,6 +32,11 @@ easiest way to install scikit-learn is using pip
     $ pip install numpy
     $ pip install scipy -U
     $ pip install -U scikit-learn
+    
+## Data Preprocessing
+
+
+
 
 Import
 ------
